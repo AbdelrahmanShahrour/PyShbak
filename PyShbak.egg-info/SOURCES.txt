@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.py
+PyShbak/Normalization.py
+PyShbak/Processor.py
+PyShbak/TweetsCleaner.py
+PyShbak/__init__.py
+PyShbak/ar.py
+PyShbak/en.py
+PyShbak/general.py
+PyShbak.egg-info/PKG-INFO
+PyShbak.egg-info/SOURCES.txt
+PyShbak.egg-info/dependency_links.txt
+PyShbak.egg-info/requires.txt
+PyShbak.egg-info/top_level.txt
