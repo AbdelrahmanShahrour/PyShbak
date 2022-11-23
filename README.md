@@ -71,6 +71,22 @@ pip3 install PyShbak
 
 |---------|---------| ------> | remove_whitespace
 
+|---------| ------> | `cleaningtext`
+
+|---------|---------| ------> | delete_repeated_characters
+
+|---------|---------| ------> | replace_letters
+
+|---------|---------| ------> | clean_text
+
+|---------|---------| ------> | remove_vowelization
+
+|---------|---------| ------> | remove_stopword
+
+|---------|---------| ------> | stem_text
+
+|---------|---------| ------> | text_prepare
+
 ---
 
 ## Example:

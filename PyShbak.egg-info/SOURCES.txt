@@ -6,6 +6,7 @@ PyShbak/Processor.py
 PyShbak/TweetsCleaner.py
 PyShbak/__init__.py
 PyShbak/ar.py
+PyShbak/cleaningtext.py
 PyShbak/en.py
 PyShbak/general.py
 PyShbak.egg-info/PKG-INFO
