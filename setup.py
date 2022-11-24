@@ -7,7 +7,7 @@ with open('requirements.txt') as f:
 with open('README.md', encoding='utf-8') as f:
     long_description = f.read()
 
-ver = '0.2'
+ver = '0.3'
 
 
 setup(
