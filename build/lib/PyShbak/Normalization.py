@@ -31,6 +31,19 @@ class Normalization_ar:
     def madah(text:str) -> str:
         text = text.replace(TATWEEL, "")
         return text
+
+    
+    def transString(string, reverse=0):
+    '''Given a Unicode string, transliterate into Buckwalter. To go from
+    Buckwalter back to Unicode, set reverse=1'''
+
+    for k, v in AR2EN.items():
+      if not reverse:
+            string = string.replace(v, k)
+      else:
+            string = string.replace(k, v)
+
+    return string
     
     def normalization_all(text:str) -> str:
         text = Normalization_ar.alef(text)
